@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <!--  在header_layout 布局文件中，header的父容器和子控件，都必须明确指明高度-->
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="match_parent"
+        android:text="我是脚布局"
+        android:layout_height="200dp" />
+</RelativeLayout>
